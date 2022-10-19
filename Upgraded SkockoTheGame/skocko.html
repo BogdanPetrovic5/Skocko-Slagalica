@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skocko</title>
+    <link rel="stylesheet" href="skocko.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="skocko.js"></script>
+  
+</head>
+
+<body id="whole">
+    <audio class="sound1" id="dobro_vece" src="dobro_vece.mp3"></audio>
+   
+    <div id="container">
+        <div id="tables">
+            <div id="leftTable">
+                <table id="guessTable" cellspacing = "15">
+                    <tr class="rows">
+                        <td id="11" class="field"></td>
+                        <td id="12" class="field"></td>
+                        <td id="13" class="field"></td>
+                        <td id="14" class="field"></td>
+                    </tr>
+                    <tr class="rows">
+                        <td id="21" class="field"></td>
+                        <td id="22" class="field"></td>
+                        <td id="23" class="field"></td>
+                        <td id="24" class="field"></td>
+                    </tr>
+                    <tr>
+                        <td id="31" class="field"></td>
+                        <td id="32" class="field"></td>
+                        <td id="33" class="field"></td>
+                        <td id="34" class="field"></td>
+                    </tr>
+                    <tr class="rows">
+                        <td id="41" class="field"></td>
+                        <td id="42" class="field"></td>
+                        <td id="43" class="field"></td>
+                        <td id="44" class="field"></td>
+                    </tr>
+                    <tr class="rows">
+                        <td id="51" class="field"></td>
+                        <td id="52" class="field"></td>
+                        <td id="53" class="field"></td>
+                        <td id="54" class="field"></td>
+                    </tr>
+                    <tr class="rows">
+                        <td id="61" class="field"></td>
+                        <td id="62" class="field"></td>
+                        <td id="63" class="field"></td>
+                        <td id="64" class="field"></td>
+                    </tr>
+                </table>
+               
+            </div>
+            <div id="rightTable">
+                
+                    <table id="resultTable" cellspacing = "15">
+                        <tr>
+                            <td id="field11" class="field1"></td>
+                            <td id="field12" class="field1"></td>
+                            <td id="field13" class="field1"></td>
+                            <td id="field14" class="field1"></td>
+                        </tr>
+                        <tr>
+                            <td id="field21"class="field1"></td>
+                            <td id="field22" class="field1"></td>
+                            <td id="field23" class="field1"></td>
+                            <td id="field24" class="field1"></td>
+                        </tr>
+                        <tr>
+                            <td id="field31" class="field1"></td>
+                            <td id="field32" class="field1"></td>
+                            <td id="field33" class="field1"></td>
+                            <td id="field34" class="field1"></td>
+                        </tr>
+                        <tr>
+                            <td id="field41" class="field1"></td>
+                            <td id="field42" class="field1"></td>
+                            <td id="field43" class="field1"></td>
+                            <td id="field44" class="field1"></td>
+                        </tr>
+                        <tr>
+                            <td id="field51" class="field1"></td>
+                            <td id="field52" class="field1"></td>
+                            <td id="field53" class="field1"></td>
+                            <td id="field54" class="field1"></td>
+                        </tr>
+                        <tr>
+                            <td id="field61" class="field1"></td>
+                            <td id="field62" class="field1"></td>
+                            <td id="field63" class="field1"></td>
+                            <td id="field64" class="field1"></td>
+                        </tr>
+                    </table>
+    
+                
+            </div>
+            <div id="thirdTable">
+                
+                <table id="symbolTable" cellspacing = "15">
+                    <tr>
+                        <td class="field2"><img class="slika" src="slike/4.png" alt=""></td>
+                        <td class="field2"><img class="slika" src="slike/5.png" alt=""></td>
+                        <td class="field2"><img class="slika" src="slike/3.png" alt=""></td>
+                        <td class="field2"><img class="slika" src="slike/2.png" alt=""></td>
+                        <td class="field2"><img class="slika" src="slike/1.png" alt=""></td>
+                        <td class="field2"><img class="slika" src="slike/6.png" alt=""></td>
+                        <td class="field2 slika" id="undo_button"> UNDO </td>
+                        
+                    </tr>
+                    
+                </table>
+
+                <div class="timer">
+                    <div class="timer1">
+                
+                    </div>
+                </div>
+                <div class="pokreni_igru" id="play">
+                    <h1>PLAY</h1>
+                </div>
+                
+            
+            </div>
+           
+            
+
+        </div>
+        <div id="finalTable">
+            <table id="combTable">
+                <tr>
+                    <td class="field3" id="1"></td>
+                    <td class="field3" id="2"></td>
+                    <td class="field3" id="3"></td>
+                    <td class="field3" id="4"></td>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</body>
+</html>

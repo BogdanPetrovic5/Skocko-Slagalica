@@ -1,0 +1,156 @@
+#whole{
+    background-color: rgb(201, 253, 148);
+    height: 100%;
+    background-repeat: no-repeat;
+    
+
+}
+.slika{
+    cursor: pointer;
+}
+#tables{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.field{
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+   border: 2px solid black;
+}
+
+
+
+#leftTable{
+    margin-left: 50px;
+}
+#rightTable{
+    margin-left: 50px;
+}
+#thirdTable{
+    margin-left: 50px;
+}
+#symbolTable{
+    background-color: rgb(3, 212, 3);
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+#symbolTable img{
+    margin-left:  15px;
+}
+#resultTable{
+    height:500px;
+    width: 400px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border:solid 5px black;
+    border-radius: 5%;
+    background-color: rgb(3, 212, 3);
+    
+}
+#resultTable td{
+    background-color: gray;
+}
+.field1{
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+   border: 2px solid black;
+}
+#guessTable{
+    border:solid 5px black;
+    border-radius: 5%;
+    background-color: rgb(3, 212, 3);
+    
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+#guessTable img{
+    margin-left: 15px;
+}
+#combTable{
+   
+    width: 400px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+   
+}
+#combTable img{
+    margin-left: 15px;
+}
+
+
+td{
+    border: 2px solid black;
+  padding: 10px;
+}
+#symbolTable img{
+    width: 50px;
+    height: 50px;
+}
+#symbolTable{
+    border:5px solid black
+}
+.field{
+    width: 87.5px;
+    height: 88px;
+}
+.field2{
+    width: 87.5px;
+    height: 88px;
+    border-radius: 100%;
+}
+.field3{
+    width: 87.5px;
+   height: 88px;
+   border-radius: 100%;
+}
+#obojeno{
+    background-color: blue;
+}
+.disabled{
+    pointer-events: none !important;
+}
+.timer{
+    margin-top: 50px;
+    width: 500px;
+    height: 150px;
+    border:5px black solid;
+    background-color: rgb(6, 173, 6);
+}
+#undo_button{
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.sound1{
+    display: none;
+}
+#play{
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.pokreni_igru{
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-color: rgb(6, 173, 6);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.pokreni_igru:hover{
+    background-color:rgb(81, 240, 81);
+    transition: all 0.2s ease-in
+}
+.pokreni_igru h1{
+    align-self: center;
+    font-size: 80px;
+    font-weight: bolder;
+}
