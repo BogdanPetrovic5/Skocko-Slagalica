@@ -1,0 +1,211 @@
+
+.slika{
+    cursor: pointer;
+}
+#undo_button{
+    cursor: pointer;
+}
+.disabled{
+    pointer-events: none !important;
+}
+
+#whole{
+    background-color: rgb(201, 253, 148);
+    height: 100vh;
+    width: 100%;
+}
+#tables{
+    width: 100%;
+    height: 100%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#tables{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+
+}
+.guessAndResult{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    margin-top: 20px;
+    gap: 20px;
+    
+    
+}
+#leftTable, #rightTable{
+    margin-left: 20px;
+    height: 70%;
+    width: 35%;
+    background-color: green;
+    border-radius: 25px;
+}
+#thirdTable{
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 30%;
+    height: 50%;
+    
+}
+#symbolTable{
+    width: 100%;
+    height: 20%;
+    
+}
+#symbolTable tr{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#symbolTable td{
+    width: calc(100% / 7);
+    height: 90%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#symbolTable td{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#symbolTable td img{
+    width: 80%;
+    height: 80%;
+    
+}
+.timer{
+    width: 100%;
+    height: 20%;
+    border-radius: 25px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#play{
+    width: 100%;
+    height: 30%;
+    
+    
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+}
+button {
+    width: 50%;
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+
+
+   #guessTable, #resultTable{
+        width: 100%;
+        height: 100%;
+      
+        
+
+   }
+   #guessTable tr, #resultTable tr{
+        margin-top: 5px;
+        width: 100%;
+        height: calc(100% / 6.5);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+        gap: 5px;
+        
+   }
+   #guessTable tr td, #resultTable tr td{
+    
+    
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 100%;
+    width: calc(100% / 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   #finalTable{
+    width: 30%;
+    height: 30%;
+    
+    align-self: center;
+   }
+   #finalTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   #combTable{
+        width: 100%;
+        height: 45%;
+        
+   }
+   #combTable tr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 5px;
+   }
+   #combTable tr td{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 100%;
+    width: calc(100% / 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
